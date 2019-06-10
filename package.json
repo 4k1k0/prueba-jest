@@ -1,0 +1,33 @@
+{
+  "name": "prueba-jest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "init": "nodemon index.js",
+    "test": "jest",
+    "lint": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/4k1k0/prueba-jest.git"
+  },
+  "keywords": [
+    "jest"
+  ],
+  "author": "Wako",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/4k1k0/prueba-jest/issues"
+  },
+  "homepage": "https://github.com/4k1k0/prueba-jest#readme",
+  "devDependencies": {
+    "jest": "^24.8.0",
+    "nodemon": "^1.19.1",
+    "standard": "^12.0.1"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "helmet": "^3.18.0"
+  }
+}
