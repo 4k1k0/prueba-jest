@@ -6,8 +6,8 @@ const app = express()
 
 app.use(helmet())
 app.use(bodyParser.urlencoded({ extended: false }))
-app.use('/usuarios', routes.usuarios)
+app.use('/', routes)
 
-app.listen(5000, () => {
-  console.log('Escuchando en puerto 5000')
-})
+const server = app.listen(5000, () => console.log('Escuchando en puerto 5000'))
+
+module.exports = server
